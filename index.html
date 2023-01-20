@@ -1,10 +1,50 @@
-<!doctype html>
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <title>BestBank</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <script src="index.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <title>Best Bank</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/bestbank_logo.png" alt="bestbank logo" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Payments</li>
+          <li>Savings</li>
+          <li>Financing</li>
+          <li>Stocks</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <button>Pay</button>
+        <button>Transfer</button>
+      </section>
+      <h1>Accounts</h1>
+      <section>
+        <div>
+          <h2>Main Account</h2>
+          <h2>${amount}</h2>
+        </div>
+        <div>
+          <h2>Expenses</h2>
+          <h2>${amount}</h2>
+        </div>
+        <div>
+          <h2>Savings</h2>
+          <h2>${amount}</h2>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
