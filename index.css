@@ -73,6 +73,7 @@ button {
 button:hover {
     background-color: #FEA22C;
     border: 5px solid #FEA22C;
+    cursor: pointer;
 }
 
 .img-container {
@@ -100,4 +101,9 @@ img {
     padding: 10px 20px;
     border: 5px solid #FFA724;
     border-radius: 15px;
+}
+
+.account:hover {
+    background-color: #FFD18C;
+    cursor: pointer;
 }
