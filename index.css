@@ -45,6 +45,7 @@ ul {
     list-style-type: none;
     padding: 10px;
     justify-content: space-around;
+    gap: 20px;
 }
 
 li:hover {
@@ -55,7 +56,7 @@ li:hover {
 .btns-container {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
     padding: 20px 0;
 }
 
@@ -64,7 +65,7 @@ button {
     font-weight: 700;
     border-radius: 50px;
     background-color: white;
-    border: 5px solid #FFD18C;
+    border: 5px solid #FEA22C;
     width: 270px;
     padding: 10px 0;
 }
@@ -72,4 +73,31 @@ button {
 button:hover {
     background-color: #FEA22C;
     border: 5px solid #FEA22C;
+}
+
+.img-container {
+    border: 2px solid red;
+}
+
+img {
+    display: inline;
+}
+
+.text {
+    border: 2px solid red;
+}
+
+.accounts-container {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.account {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 5px solid #FFA724;
+    border-radius: 15px;
 }

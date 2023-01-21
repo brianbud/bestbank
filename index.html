@@ -29,21 +29,23 @@
         <button>Pay</button>
         <button>Transfer</button>
       </section>
-      <h1>Accounts</h1>
-      <section>
-        <div>
-          <h2>Main Account</h2>
-          <h2>${amount}</h2>
-        </div>
-        <div>
-          <h2>Expenses</h2>
-          <h2>${amount}</h2>
-        </div>
-        <div>
-          <h2>Savings</h2>
-          <h2>${amount}</h2>
-        </div>
-      </section>
+      <div class="accounts-container">
+        <h1>Accounts</h1>
+        <section class="accounts-container">
+          <div class="account">
+            <h2>Main Account</h2>
+            <h2>${amount}</h2>
+          </div>
+          <div class="account">
+            <h2>Expenses</h2>
+            <h2>${amount}</h2>
+          </div>
+          <div class="account">
+            <h2>Savings</h2>
+            <h2>${amount}</h2>
+          </div>
+        </section>
+      </div>
     </main>
     <script src="index.js"></script>
   </body>
