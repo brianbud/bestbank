@@ -21,6 +21,10 @@ body {
     font-weight: 400;
 }
 
+main {
+    padding-bottom: 50px;
+}
+
 .logo {
     width: 300px;
 }
@@ -96,6 +100,7 @@ img {
     gap: 10px;
 }
 .account {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
@@ -106,4 +111,8 @@ img {
 .account:hover {
     background-color: #FFD18C;
     cursor: pointer;
+}
+
+.selected {
+    background-color: #FFD18C;
 }
