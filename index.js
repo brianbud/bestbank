@@ -63,6 +63,8 @@ for (let [index, item] of accounts.entries()) {
   balanceEl[index].innerHTML = `$${item.balance}`;
 }
 
-accountEl[0].addEventListener("click", function () {
-  accountEl[0].style.backgroundColor = "#FEA22C";
-});
+for (let account of accountEl) {
+  account.addEventListener("click", function () {
+    account.style.backgroundColor = "#FEA22C";
+  });
+}
