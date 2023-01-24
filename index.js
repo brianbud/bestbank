@@ -65,6 +65,9 @@ for (let [index, item] of accounts.entries()) {
 
 for (let account of accountEl) {
   account.addEventListener("click", function () {
+    for (let account of accountEl) {
+      account.style.backgroundColor = "transparent";
+    }
     account.style.backgroundColor = "#FEA22C";
   });
 }
