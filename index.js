@@ -53,7 +53,7 @@ const accounts = [
   },
 ];
 
-const accountEL = document.querySelectorAll(".account");
+const accountEl = document.querySelectorAll(".account");
 const accountContainerEl = document.querySelectorAll(".accounts-container");
 const accountNameEl = document.querySelectorAll(".account-name");
 const balanceEl = document.querySelectorAll(".balance");
@@ -61,5 +61,8 @@ const balanceEl = document.querySelectorAll(".balance");
 for (let [index, item] of accounts.entries()) {
   accountNameEl[index].innerHTML = `${item.title}`;
   balanceEl[index].innerHTML = `$${item.balance}`;
-  console.log();
 }
+
+accountEl[0].addEventListener("click", function () {
+  accountEl[0].style.backgroundColor = "#FEA22C";
+});
